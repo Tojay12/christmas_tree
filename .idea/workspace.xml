@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8ba991b-c3d0-4beb-bf02-8f06d1aa1d86" name="Changes" comment="cici">
+      <change afterPath="$PROJECT_DIR$/../canvas/algorithm_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/enterprise_wechat_quartz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/menu_saveas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/zip_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-demo/mushroom.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-demo/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-demo/sample.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-demo/第一题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-demo/第二题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sports-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sports-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sports-framework/sports-satoken-spring-boot-starter/src/main/java/org/sports/springboot/starter/satoken/enums/UserChannelEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sports-framework/sports-satoken-spring-boot-starter/src/main/java/org/sports/springboot/starter/satoken/enums/UserChannelEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sports-framework/sports-satoken-spring-boot-starter/src/main/java/org/sports/springboot/starter/satoken/enums/UserRoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sports-framework/sports-satoken-spring-boot-starter/src/main/java/org/sports/springboot/starter/satoken/enums/UserRoleEnum.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Tojay12"
+  }
+}]]></component>
+  <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPENED",
+    "assignee": {
+      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
+      "username": "jiangyuanwei",
+      "fullname": "蒋元伟"
+    }
+  }
+}]]></component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "first": "http://192.168.101.181:8888/sports/sports-cloud.git",
+    "second": "0d8a03e6-23f7-4feb-8a9e-1f08c3a25008"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Tojay12/christmas_tree.git",
+    "accountId": "8942e756-8336-4a20-9d9c-b5e26f79dcd8"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="37GyNUtzBQDCLjgpMLPboec8SPD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="wx_auto_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="christmas_tree" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wx_auto_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wx_auto_read" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a101402ee41c-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28238.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ba991b-c3d0-4beb-bf02-8f06d1aa1d86" name="Changes" comment="" />
+      <created>1766543662351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766543662351</updated>
+    </task>
+    <task id="LOCAL-00001" summary="cici">
+      <option name="closed" value="true" />
+      <created>1766720160940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766720160940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cici" />
+    <option name="LAST_COMMIT_MESSAGE" value="cici" />
+  </component>
+</project>
