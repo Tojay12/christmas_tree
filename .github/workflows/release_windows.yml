@@ -3,17 +3,16 @@ name: Build & Release Windows EXE
 on:
   push:
     tags:
-      - 'v*'  # 只有打 tag 时触发
+      - 'v*'
 
 jobs:
   build-release:
     runs-on: windows-latest
     permissions:
-      contents: write  # 显式授权写入仓库内容
+      contents: write
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -22,32 +21,24 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
+        pip install --upgrade pip
         pip install -r requirements.txt
         pip install pyinstaller
 
     - name: Build EXE
-      run: |
-        pyinstaller --onefile wx_auto_read.py --noconsole
+      run: pyinstaller --onefile wx_auto_read.py --noconsole
 
-    - name: Create Release
+    - name: Create GitHub Release
       id: create_release
-      uses: actions/create-release@v1
+      uses: softprops/action-gh-release@v1
       with:
         tag_name: ${{ github.ref_name }}
-        release_name: Release ${{ github.ref_name }}
-        draft: false
-        prerelease: false
       env:
-        # 使用 PAT 替换默认 GITHUB_TOKEN
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-    - name: Upload EXE to Release
-      uses: actions/upload-release-asset@v1
+    - name: Upload EXE
+      uses: softprops/action-gh-release@v1
       with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: dist/wx_auto_read.exe
-        asset_name: wx_auto_read.exe
-        asset_content_type: application/octet-stream
+        files: dist/wx_auto_read.exe
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
